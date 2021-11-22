@@ -34,3 +34,4 @@ class CrawlAllocineSpider(CrawlSpider):
         item['Synopsis'] = response.xpath('//div[@class="content-txt "]').get()
         
         return item
+        
